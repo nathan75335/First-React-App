@@ -1,13 +1,65 @@
-body {
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  background: #282D35;
+  height: 100vh;
+}
+.MyImage{
+  width: 70px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #21222A;
+  color: #DEEBF8;
+  align-items: center;
+  
+}
+.LogoText{
+ display: block;
+ display: inline-block;
+ position: absolute;
+ top: 2px;
+ left: 110px;
+ font-family: Inter;
+ color: #61dafb;
+}
+.Textreact{
+  margin-right: 50px;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  align-content: center;
+}
+.Logodiv{
+  margin-left: 30px;
+  align-items: center;
+}
+.container-body{
+  padding: 57px 27px;
+  
+}
+.Text-header{
+  color:#FFFFFF;
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 39px;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: -0.05em;
+  line-height: 47px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.list-love-css{
+  color:#FFFFFF;
+  font-family: Inter;
+  margin-top: 46px;
+  margin-left: 10px;
+  line-height: 2.5em;
+  max-width: 400px;
+}
+.list-love-css > li::marker{
+  font-size: 1.5rem;
+  color: #61dafb;
 }
